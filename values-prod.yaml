@@ -1,0 +1,10 @@
+image:
+  tag:"1.22"
+
+ingress:
+  enabled: true
+  hosts:
+   - host: srvprod.test
+     paths:
+      - path: /
+        pathType: Prefix
