@@ -1,0 +1,11 @@
+image:
+  tag: "1.23"
+
+ingress:
+  enabled: true
+  className: nginx
+  hosts
+    -hosts: srv-dev.test
+     path:
+       -path: /
+        pathType: Prefix
